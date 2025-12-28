@@ -2,13 +2,14 @@
 
 ## Description
 This program demonstrates the implementation of **Bubble Sort** in Java.
-Bubble sort sorts the array by repeatedly comparing **adjacent elements** and swapping them if they are in the wrong order.
+Bubble sort repeatedly compares **adjacent elements** and swaps them if they are in the wrong order until the array is sorted.
 
 ## How It Works
 - Reads the size of the array
 - Stores elements in an array
 - Compares adjacent elements
 - Swaps them if the left element is greater than the right element
+- Uses a flag to stop early if the array is already sorted
 - Repeats the process until the array is sorted
 
 ## Input Format
